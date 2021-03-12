@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import Profile from './components/Profile';
+import Experience from './components/Experience';
+import Porfolio from './components/Porfolio';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          SERGIO HERNANDEZ
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          testor
-        </a>
-      </header>
+      <React.Fragment>
+        <CssBaseline />
+        <Container fixed>
+          <Profile />
+          <Porfolio />
+          <Experience />
+        </Container>
+        <Footer />
+      </React.Fragment>
     </div>
   );
 }

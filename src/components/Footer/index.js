@@ -3,12 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import css from './Header.module.scss';
-import topImage from '../../assets/images/imagen-01.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    marginTop: theme.spacing(4),
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -18,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Header() {
+export default function Footer() {
   const classes = useStyles();
 
   return (
@@ -30,9 +29,6 @@ export default function Header() {
           </Typography>
         </Toolbar>
       </AppBar>
-      <div className={css.topImageWrapper}>
-        <img className={css.topImage} src={topImage} alt="Italian Trulli"></img>
-      </div>
     </div>
   );
 }
