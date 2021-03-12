@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import Header from './components/Header';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          TEst  <code>src/App.js</code> and
+          SERGIO HERNANDEZ
         </p>
         <a
           className="App-link"
