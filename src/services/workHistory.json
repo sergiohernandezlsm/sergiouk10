@@ -1,0 +1,20 @@
+[
+  {
+    "company": "Little Star Media (United Kingdom)",
+    "year": "March. 2018 – Present",
+    "role": "Full Stack Developer",
+    "description": "A lot of stuff"
+  },
+  {
+    "company": "Altavoz S.A. - (Chile)",
+    "year": "Oct.2015 - Jun 2017",
+    "role": "Front-End Developer",
+    "description": "Architectural designer of websites and front-end developer of the website projects circle; from building wireframes, mock-ups, code architecture HTML, CSS, JQuery and JavaScript, validation of code and insert the CMS. Another activity was the support to the department of email marketing, validating code HTML and including content."
+  },
+  {
+    "company": "Imagen Táctica C.A. (Venezuela)",
+    "year": "March. 2012 – March de 2015",
+    "role": "Account Manager",
+    "description": "Coordination and execution of advertising projects; from corporate image, outdoor advertising, budget for operations of projects, flyers, business cards, posters, corporate material, and managed effectively the clients through a clear and consistent communication by email, phone and face to face."
+  }
+]

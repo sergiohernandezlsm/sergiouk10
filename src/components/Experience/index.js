@@ -24,33 +24,30 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Experience() {
   const classes = useStyles();
-  const data = experiences.map(experience => {
-    return (
-      <div className={classes.root} key={`item-${experience.title}`}>
-        <Grid container spacing={2}>
-          <Grid item xs={12} sm={12}>
-            <Typography variant="h6" className={classes.title}>
-              {experience.title}
-            </Typography>
-            <div className={css.colorLine}></div>
-            <div className={classes.demo}>
-              {experience.content.map((item, index) => {
-                return (
-                  <List key={index}>
-                    <ListItem>
-                      <ListItemIcon>
-                        {/* <FolderIcon /> */}
-                      </ListItemIcon>
-                      <ListItemText primary={item} />
-                    </ListItem>
-                  </List>
-                )
-              })}
-            </div>
-          </Grid>
+  return (
+    <div className={classes.root}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={12}>
+          <Typography variant="h6" className={classes.title}>
+            Skills Profile
+          </Typography>
+          <div className={css.colorLine}></div>
+          <div className={classes.demo}>
+            {experiences.content.map((item, index) => {
+              return (
+                <List key={index}>
+                  <ListItem>
+                    <ListItemIcon>
+                      {/* <FolderIcon /> */}
+                    </ListItemIcon>
+                    <ListItemText primary={item} />
+                  </ListItem>
+                </List>
+              )
+            })}
+          </div>
         </Grid>
-      </div>
-    );
-  })
-  return data
+      </Grid>
+    </div>
+  );
 }

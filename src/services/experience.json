@@ -1,26 +1,27 @@
-[
-  {
-    "title": "Skills Profile",
-    "icon": "Experience developing Front-End code with HTML, CSS and JQuery.",
-    "content": [
-      "1Experience developing Front-End code with HTML, CSS and JQuery.",
-      "2Experience developing Front-End code with HTML, CSS and JQuery."
-    ]
-  },
-  {
-    "title": "Work History",
-    "icon": "Experience developing Front-End code with HTML, CSS and JQuery.",
-    "content": [
-      "3Experience developing Front-End code with HTML, CSS and JQuery.",
-      "4Experience developing Front-End code with HTML, CSS and JQuery."
-    ]
-  },
-  {
-    "title": "Education and Training",
-    "icon": "Experience developing Front-End code with HTML, CSS and JQuery.",
-    "content": [
-      "5Experience developing Front-End code with HTML, CSS and JQuery.",
-      "6Experience developing Front-End code with HTML, CSS and JQuery."
-    ]
-  }
-]
+{
+  "content": [
+    "Experience developing with Sequelize, ORM and Mysql",
+    "Strong handling express.js",
+    "React development participation",
+    "Handling Redux and usability",
+    "Knowledge of unit test (Jest).",
+    "Docker containers",
+    "NextJS exposure",
+    "Github",
+    "Node.js",
+    "Exposure to CircleCI and github actions",
+    "Familiar with Kubernetes",
+    "Gulp, Sass, preprocessor",
+    "Jira (project management)",
+    "Work experience in UX design.",
+    "Wireframe builder using Axure.",
+    "High knowledge of Responsive Design.",
+    "Material UI",
+    "Bootstrap grids and components for responsive design.",
+    "Ability to learn quickly.",
+    "Knowledge of accessibility.",
+    "Strong analytical skills.",
+    "PHP experience",
+    "Experience developing Wordpress themes (PHP wordpress functions)."
+  ]
+}

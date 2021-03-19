@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Profile from './components/Profile';
+import WorkHistory from './components/WorkHistory';
 import Experience from './components/Experience';
 import Porfolio from './components/Porfolio';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -17,6 +18,7 @@ function App() {
         <Container fixed>
           <Profile />
           <Porfolio />
+          <WorkHistory />
           <Experience />
         </Container>
         <Footer />
