@@ -19,6 +19,9 @@ const useStyles = makeStyles({
   media: {
     height: 140,
   },
+  title: {
+    margin: '20px',
+  },
 });
 
 export default function Experience() {
@@ -27,8 +30,8 @@ export default function Experience() {
     <div className={classes.root}>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={12}>
-          <Typography variant="h6" className={classes.title}>
-            title
+          <Typography variant="h4" className={classes.title}>
+            Work History
           </Typography>
           <div className={css.colorLine}></div>
           <div className={classes.demo}>

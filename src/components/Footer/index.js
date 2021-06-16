@@ -25,7 +25,7 @@ export default function Footer() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Sergio Hernandez CV
+            Sergio Hernandez CV 2021
           </Typography>
         </Toolbar>
       </AppBar>

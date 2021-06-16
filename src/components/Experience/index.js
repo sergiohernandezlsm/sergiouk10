@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
   title: {
-    margin: theme.spacing(4, 0, 2),
+    margin: '20px',
   },
 }));
 
@@ -28,23 +28,20 @@ export default function Experience() {
     <div className={classes.root}>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={12}>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h4" className={classes.title}>
             Skills Profile
           </Typography>
           <div className={css.colorLine}></div>
           <div className={classes.demo}>
+          <List>
             {experiences.content.map((item, index) => {
               return (
-                <List key={index}>
-                  <ListItem>
-                    <ListItemIcon>
-                      {/* <FolderIcon /> */}
-                    </ListItemIcon>
+                  <ListItem key={index}>
                     <ListItemText primary={item} />
                   </ListItem>
-                </List>
               )
             })}
+            </List>
           </div>
         </Grid>
       </Grid>

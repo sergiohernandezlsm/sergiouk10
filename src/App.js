@@ -17,9 +17,9 @@ function App() {
         <CssBaseline />
         <Container fixed>
           <Profile />
-          <Porfolio />
-          <WorkHistory />
           <Experience />
+          {/* <Porfolio /> */}
+          <WorkHistory />
         </Container>
         <Footer />
       </React.Fragment>
