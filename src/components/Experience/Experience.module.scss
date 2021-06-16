@@ -5,3 +5,11 @@
   padding: 20px;
   margin: 14px 0 15px 0;
 }
+
+@media only screen and (min-width: 576px) {
+  .listStyle {
+    -webkit-column-count: 2; /* Chrome/Opera, Safari */
+    -moz-column-count: 2; /* Mozilla Firefox */
+    column-count: 2;
+  }
+}

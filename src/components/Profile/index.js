@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import Hidden from '@material-ui/core/Hidden';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Profile from '../../services/profile.json';
@@ -26,10 +27,12 @@ export default function FullWidthGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={4}>
+        <Hidden smDown>
         <Grid item xs={12} sm={4}>
           <img className={css.profilePic} src={profilePicture} alt="Sergio Hernandez" />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        </Hidden>
+        <Grid item xs={12} sm={12} md={8}>
           <Typography variant="h4" className={classes.title}>
             Personal Profile
           </Typography>

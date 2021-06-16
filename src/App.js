@@ -15,12 +15,14 @@ function App() {
       <Header />
       <React.Fragment>
         <CssBaseline />
-        <Container fixed>
-          <Profile />
+          <Container>
+            <Profile />
+          </Container>
           <Experience />
+          <Container>
+            <WorkHistory />
+          </Container>
           {/* <Porfolio /> */}
-          <WorkHistory />
-        </Container>
         <Footer />
       </React.Fragment>
     </div>
