@@ -15,14 +15,14 @@ function App() {
     <div className="App">
       <Header />
       <React.Fragment>
-      <Container>
-        <Profile />
-      </Container>
-      <Skill />
-      <Container>
-        <WorkHistory />
-      </Container>
-      <Footer />
+        <Container>
+          <Profile />
+        </Container>
+        <Skill />
+        <Container>
+          <WorkHistory />
+        </Container>
+        <Footer />
       </React.Fragment>
     </div>
   );

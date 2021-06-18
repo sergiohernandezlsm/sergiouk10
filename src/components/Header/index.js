@@ -1,37 +1,17 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import css from './Header.module.scss';
 import topImage from '../../assets/images/bq2.jpeg';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));
-
 export default function Header() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" className={classes.title}>
-            Sergio Hernandez CV
-          </Typography>
-        </Toolbar>
-      </AppBar>
+    <div className={css.header}>
+      <div className={css.headerTop}>
+        <h1 className={css.title}>
+          Sergio Hernandez CV
+        </h1>
+      </div>
       <div className={css.topImageWrapper}>
-        <img className={css.topImage} src={topImage} alt="Italian Trulli"></img>
+        <img className={css.topImage} src={topImage} alt="programming"></img>
       </div>
     </div>
   );

@@ -12,3 +12,15 @@ html {
     background-size: cover;
   }
 }
+
+.headerTop {
+  width: 100%;
+  .title {
+    color: #fff;
+    text-align: center;
+    background-color: #3f51b5;
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+  }
+}
