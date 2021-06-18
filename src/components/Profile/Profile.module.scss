@@ -9,3 +9,15 @@
   padding: 20px;
   margin: 14px 0 15px 0;
 }
+
+.root {
+  flex-grow: 1;
+}
+.paper {
+  padding: 10px;
+  text-align: "center";
+  color: blue;
+}
+.title {
+  margin: 20px;
+}

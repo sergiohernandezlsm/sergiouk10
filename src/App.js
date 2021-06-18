@@ -3,27 +3,26 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Profile from './components/Profile';
 import WorkHistory from './components/WorkHistory';
-import Experience from './components/Experience';
-import Porfolio from './components/Porfolio';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Container from '@material-ui/core/Container';
+import Skill from './components/Experience';
+import Container from 'react-bootstrap/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
+
+
 
 function App() {
   return (
     <div className="App">
       <Header />
       <React.Fragment>
-        <CssBaseline />
-          <Container>
-            <Profile />
-          </Container>
-          <Experience />
-          <Container>
-            <WorkHistory />
-          </Container>
-          {/* <Porfolio /> */}
-        <Footer />
+      <Container>
+        <Profile />
+      </Container>
+      <Skill />
+      <Container>
+        <WorkHistory />
+      </Container>
+      <Footer />
       </React.Fragment>
     </div>
   );

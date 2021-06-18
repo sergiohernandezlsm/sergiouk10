@@ -5,11 +5,26 @@
   padding: 20px;
   margin: 14px 0 15px 0;
 }
-
-@media only screen and (min-width: 576px) {
-  .listStyle {
+.listStyle {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  @media only screen and (min-width: 576px) {
     -webkit-column-count: 2; /* Chrome/Opera, Safari */
     -moz-column-count: 2; /* Mozilla Firefox */
     column-count: 2;
   }
+}
+
+.root {
+  flex-grow: 1;
+  background-color: #f2f2f2;
+  margin: 70px 0;
+  padding: 60px 0 70px 0;
+}
+.demo {
+  padding-left: 8px;
+}
+.title {
+  margin: 20px;
 }
