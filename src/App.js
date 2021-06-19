@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import Profile from './components/Profile';
 import WorkHistory from './components/WorkHistory';
 import Skill from './components/Experience';
-import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
@@ -15,13 +14,9 @@ function App() {
     <div className="App">
       <Header />
       <React.Fragment>
-        <Container>
-          <Profile />
-        </Container>
+        <Profile />
         <Skill />
-        <Container>
-          <WorkHistory />
-        </Container>
+        <WorkHistory />
         <Footer />
       </React.Fragment>
     </div>

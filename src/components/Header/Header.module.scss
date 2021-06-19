@@ -1,26 +1,42 @@
 body,
 html {
   height: 100%;
-  margin: 0;
+  margin: 0 !important;
 }
 
 .topImageWrapper {
-  .topImage {
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../../assets/images/computer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  .headerText {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-family: "ubuntumedium", sans-serif;
+    font-size: 50px;
+    span {
+      font-size: 27px;
+      display: block;
+      padding-top: 8px;
+      font-family: "ubuntumedium_italic", sans-serif;
+    }
   }
 }
 
 .headerTop {
   width: 100%;
+  background-color: #111;
   .title {
     color: #fff;
     text-align: center;
-    background-color: #3f51b5;
     margin: 0;
-    padding: 10px;
-    font-size: 25px;
+    padding: 20px 10px;
+    font-size: 24px;
+    font-family: "ubuntubold", sans-serif;
   }
 }

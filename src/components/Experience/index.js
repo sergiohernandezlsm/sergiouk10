@@ -7,13 +7,15 @@ const skill = () => {
   return (
     <div className={css.root}>
       <Container>
-        <h4 className={css.title}>Skills Profile</h4>
-        <div className={css.colorLine}></div>
-        <ul className={css.listStyle}>
-          {experiences.content.map((item, index) => {
-            return <li key={index} primary={item} className={css.demo}><p>{item}</p></li>
-          })}
-        </ul>
+        <div className={css.experienceWrapper}>
+          <h4 className={css.title}>Skills Profile</h4>
+          <div className={css.colorLine}></div>
+          <ul className={css.listStyle}>
+            {experiences.content.map((item, index) => {
+              return <li key={index} primary={item} className={css.demo}><p>{item}</p></li>
+            })}
+          </ul>
+        </div>
       </Container>
     </div>
   );

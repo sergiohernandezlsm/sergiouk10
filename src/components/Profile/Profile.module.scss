@@ -1,23 +1,23 @@
+@import "../../assets/scss/global.scss";
+
 .profilePic {
   width: 100%;
-  padding-top: 25px;
-}
-.colorLine {
-  height: 15px;
-  width: 100%;
-  background-color: #fedd00;
-  padding: 20px;
-  margin: 14px 0 15px 0;
+  @media only screen and (min-width: 992px) {
+    padding: 30px 50px 50px 50px;
+  }
+  border-radius: 50%;
 }
 
 .root {
   flex-grow: 1;
+  padding: 70px 0;
 }
 .paper {
   padding: 10px;
   text-align: "center";
   color: blue;
 }
-.title {
-  margin: 20px;
+
+p {
+  font-family: "ubunturegular";
 }
