@@ -9,8 +9,11 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  height: 300px;
   position: relative;
+  @media only screen and (min-width: 567px) {
+    min-height: 100vh;
+  }
   .headerText {
     position: absolute;
     top: 40%;
@@ -19,6 +22,11 @@ html {
     color: #fff;
     font-family: "ubuntumedium", sans-serif;
     font-size: 50px;
+    @media only screen and (max-width: 566px) {
+      top: 28%;
+      font-size: 40px;
+      padding: 0 10px;
+    }
     span {
       font-size: 27px;
       display: block;
