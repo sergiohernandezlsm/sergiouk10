@@ -9,7 +9,7 @@ import css from './Profile.module.scss';
 
 const profile = () => {
   return (
-    <div className={css.root}>
+    <div className={css.root} id="profile">
       <Container>
         <Row>
           <Col md={5} className='d-none d-md-block'><img className={css.profilePic} src={profilePicture} alt="Sergio Hernandez" /></Col>
@@ -17,7 +17,7 @@ const profile = () => {
             <h4 className={css.title}>Personal Profile</h4>
             <div className={css.colorLine}></div>
             <p>{Profile.description}</p>
-            {/* <div><a href="downloads/cv-sergio.pdf" target="_blank" title="Download sergios CV">Download CV</a></div> */}</Col>
+            <div className={css.downloadFile}><a href="downloads/cv-sergio.pdf" target="_blank" title="Download sergios CV" download>Download CV</a></div></Col>
         </Row>
       </Container>
     </div>

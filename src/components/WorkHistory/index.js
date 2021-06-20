@@ -9,15 +9,15 @@ import workHistory from '../../services/workHistory.json'
 
 export default function Experience() {
   return (
-    <div className={css.root}>
+    <div className={css.root} id="history">
       <Container>
       <h4 className={css.title}>Work History</h4>
       <div className={css.colorLine}></div>
         {workHistory.map((item, index) => {
           return (
-            <Row className={css.record}>
+            <Row className={css.record} key={index}>
               <Col>
-                <Card className={css.card} key={index}>
+                <Card className={css.card}>
                   <Card.Header as="h5">{item.year}</Card.Header>
                   <Card.Body>
                     <Card.Title>{item.company}</Card.Title>
