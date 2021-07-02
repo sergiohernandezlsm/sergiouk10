@@ -2,8 +2,8 @@
   {
     "company": "Little Star Media (United Kingdom)",
     "year": "March. 2018 – Present",
-    "role": "Full Stack Developer",
-    "description": "A lot of stuff"
+    "role": "Web Developer",
+    "description": "Development, expansion and maintenance of new software created by the team from scratch using React, NextJS and Bootstrap for the Frontend, React, Redux and Material UI for the CMS and Sequelize, Express and Sequelize for the API using JavaScript, TypeScript and Jest for testing also maintenance of legacy code in PHP using WordPress and additional some exposure to building Docker images, Kubernetes Cluster and deployment to AWS using GitHub Actions."
   },
   {
     "company": "Altavoz S.A. - (Chile)",
