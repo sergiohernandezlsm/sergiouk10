@@ -17,7 +17,8 @@ const profile = () => {
             <h4 className={css.title}>Personal Profile</h4>
             <div className={css.colorLine}></div>
             <p>{Profile.description}</p>
-            <div className={css.downloadFile}><a href="../../services/downloads/sergio-cv.pdf" target="_blank" title="Download sergios CV" download>Download CV</a></div></Col>
+            {/* <div className={css.downloadFile}><a href="../../services/downloads/sergio-cv.pdf" target="_blank" title="Download sergios CV" download>Download CV</a></div> */}
+          </Col>
         </Row>
       </Container>
     </div>
