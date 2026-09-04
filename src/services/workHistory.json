@@ -1,19 +1,25 @@
 [
   {
+    "company": "ITV plc (United Kingdom)",
+    "year": "Jan 2023 – Present",
+    "role": "Front-End Engineer",
+    "description": "Architected and scaled high-performance TypeScript applications across React, Next.js, and Node.js with a strong focus on page performance and user experience. Integrated GraphQL backend services to stream real-time data and experimented with HTMX for streamlined server-driven dynamic rendering. Maintained high reliability by building comprehensive unit and E2E testing suites using Playwright, Vitest, Jest, and Cypress. Streamlined delivery through automated GitHub Actions CI/CD workflows, while establishing performance-focused frontend standards and conducting peer code reviews in an agile environment."
+  },
+  {
     "company": "Little Star Media (United Kingdom)",
-    "year": "March. 2018 – Present",
+    "year": "Feb 2018 – Dec 2022",
     "role": "Web Developer",
     "description": "Development, expansion and maintenance of new software created by the team from scratch. I have been using React, NextJS and Bootstrap for the Frontend, React, Redux and Material UI for the CMS and Sequelize, Express for the API using JavaScript, TypeScript and Jest for testing. Also under my responsibilities, I have to look after the maintenance of legacy code in PHP developed in WordPress and additional some exposure to building Docker images, Kubernetes Cluster and deployment to AWS using GitHub Actions."
   },
   {
     "company": "Altavoz S.A. - (Chile)",
-    "year": "Oct.2015 - Jun 2017",
-    "role": "Front-End Developer",
+    "year": "Oct 2015 - Jun 2017",
+    "role": "Front-End Engineer",
     "description": "Architectural designer of websites and front-end developer of the website projects circle; from building wireframes, mock-ups, code architecture HTML, CSS, JQuery and JavaScript, validation of code and insert the CMS. Another activity was the support to the department of email marketing, validating code HTML and including content."
   },
   {
     "company": "Imagen Táctica C.A. (Venezuela)",
-    "year": "March. 2012 – March de 2015",
+    "year": "Mar 2012 – Mar de 2015",
     "role": "Account Manager",
     "description": "Coordination and execution of advertising projects; from corporate image, outdoor advertising, budget for operations of projects, flyers, business cards, posters, corporate material, and managed effectively the clients through a clear and consistent communication by email, phone and face to face."
   }

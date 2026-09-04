@@ -8,7 +8,7 @@ export default function Header() {
       <Navigator />
       <div className={css.topImageWrapper}>
         <h1 className={css.headerText}>
-          {`Sergio Hernández`}
+          {`Sergio Hernández Araujo`}
           <span>{`Software Engineer`}</span>
         </h1>
       </div>

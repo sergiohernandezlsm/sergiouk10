@@ -1,7 +1,7 @@
 {
   "name": "sergio",
-  "title": "Personal Profile",
-  "description": "I am a professional developer with experience in Frontend/Backend Development, Web Design and DevOps. I am dedicated, creative, efficient, and highly focused on finishing projects with high-quality standards. I have experience in development using React, Sequelize, Express, JavaScript, TypeScript, Jest, Nodejs, React testing library, MySQL, ORM, Responsive Design, Sass, Gulp, PHP, WordPress, Bootstrap, HTML, CSS and other relevant tools. I also have some involvement designing wireframes, mock-ups, email marketing, good handling of Photoshop and Illustrator with experience in commercial environments. My goal is to keep learning to become a better developer.",
+  "title": "Professional Profile",
+  "description": "Results-driven Software Engineer with over 8 years of experience building scalable, high-performance web applications using TypeScript, React, Next.js, and Node.js. Excellent communicator and dedicated team player who aligns technical execution directly with overarching business goals and targets. Passionate about optimizing front-end performance, client-side load times, and overall technical architecture. Skilled across the full software lifecycle from REST APIs and modern UI patterns to CI/CD automation and cloud deployments on AWS and Kubernetes (EKS). Possesses a strong growth mindset with an enthusiastic drive to learn new technologies and bridge team objectives with business success. ",
   "technologiesTitle": "CURRENT TECHNOLOGIES IN USE.",
   "technologies": "Sequelize, MySQL, ORM, express.js, Next.js, React, JavaScript, TypeScript, jest, react testing library, PHP, Wordpress, Github, Node.js, NPM, Gulp, Sass, CSS, HTML, Jira (project management)."
 }
