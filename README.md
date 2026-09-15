@@ -71,5 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Deploy to firebase
 
+firebase login
+firebase use sergio-cv-5d5e3
 npm run build
 firebase deploy

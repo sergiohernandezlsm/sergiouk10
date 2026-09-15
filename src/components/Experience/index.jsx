@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import css from "./Experience.module.scss";
 import experiences from "../../services/experience.json";
